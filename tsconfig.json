@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                // Specifies the ECMAScript target version
+    "module": "ESNext",               // Specifies the module system
+    "strict": true,                   // Enable all strict type-checking options
+    "esModuleInterop": true,          // Allows import/export compatibility with CommonJS modules
+    "moduleResolution": "node",       // Use Node.js module resolution
+    "forceConsistentCasingInFileNames": true, // Ensures file name casing consistency
+    "skipLibCheck": true,             // Skips type checking of declaration files
+  },
+
+  "include": [
+    ".eslintrc.cjs",
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.cjs",
+    "**/*.js",
+    ".next/types/**/*.ts",
+    "prettier.config.mjs",
+    "next.config.mjs"
+  ],
+  "exclude": [
+    "node_modules"                    // Excludes the node_modules directory
+  ]
+}
+
